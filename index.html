@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/img/PINCHEZ ICON.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Peter Onsomu</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <!-- &#60;&#62; -->
+        <a href="index.html" class="nav-logo"><img src="./assets/img/PINCHEZ ICON.png" height="70px" alt="H" /></a>
+      </div>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link home active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link contact">Contact</a>
+          </li>
+          <li class="nav-item">
+          <a href = "#" onclick="myFunction()"> <img src="./assets/img/sumoon.png" alt="" height="20px" width="20px" style="background-color: transparent;"> </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+        <h2 class="home-title">
+          Hi 👋,<br />I'am <span class="home-title-color">Peter Onsomu</span><br />
+         <span id="jobTitle" >Web Developer</span> 
+        </h2>
+      </div>
+
+      <div class="home-social">
+        <a href="https://www.linkedin.com/in/peter-onsomu-695593264/" target="_blank" class="home-social-icon"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/pkonsomu2020" target="_blank" class="home-social-icon"><i
+            class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home-img">
+        <img src="assets/img/profile.gif" alt="" />
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+    
+      <div class="about-container bd-grid">
+        <div class="about-img">
+          <img src="assets/img/WEB-DEVELOPMENT-BACKGROUND-IMG.png" alt="Profile Image" />
+        </div>
+    
+        <div class="about-content">
+          <p class="about-text">
+            A passionate and skilled developer specializing in frontend, backend, and UI/UX design.  
+            With a strong foundation in HTML, CSS, JavaScript, and ReactJS, I craft engaging and  
+            responsive user interfaces. My backend expertise in Node.js and MySQL ensures seamless  
+            functionality, while my proficiency in Figma brings user-centric designs to life.
+          </p>
+          <br />
+          <p>
+            EMAIL: info@pinchezgraphics.com
+            <i style="color: #4070f4; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
+          </p>
+        </div>
+      </div>
+    </section>    
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-container bd-grid">
+        <div>
+          <!-------------SKILL 1------------>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-html5 skills-icon"></i>
+              <span class="skills-name">HTML</span>
+            </div>
+          </div>
+
+          <!-------------SKILL 2------------>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-css3 skills-icon"></i>
+              <span class="skills-name">CSS</span>
+            </div>
+          </div>
+
+          <!-------------SKILL 3------------>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-javascript skills-icon"></i>
+              <span class="skills-name">JavaScript</span>
+            </div>
+          </div>
+
+          <!-------------SKILL 4------------>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-react skills-icon"></i>
+              <span class="skills-name">React</span>
+            </div>
+          </div>
+
+          <!-------------SKILL 5------------>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-redux skills-icon"></i>
+              <span class="skills-name">Redux</span>
+            </div>
+          </div>
+
+          <!-------------SKILL 6------------>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/typescript.png" alt="" />
+              <span class="skills-name">TypeScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-------------SKILL 7------------>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/express.png" alt="" />
+              <span class="skills-name">Express.js</span>
+            </div>
+          </div>
+
+          <!-------------SKILL 8------------>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-nodejs skills-icon"></i>
+              <span class="skills-name">Node.js</span>
+            </div>
+          </div>
+
+          <!-------------SKILL 9------------>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/mongodb.png" alt="" />
+              <span class="skills-name">MongoDB</span>
+            </div> 
+          </div>
+
+          <!-------------SKILL 10------------>
+          <div>
+             <!-- <h2 class="skills-subtitle">TOOLS</h2> --> 
+             <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/github.svg" alt="" />
+                <span class="skills-name">Github</span>
+              </div>
+            </div>
+
+            <!-------------SKILL 11------------>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/git.png" alt="" />
+                <span class="skills-name">Git</span>
+              </div>
+
+            </div>
+
+            <!-------------SKILL 12------------>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/dsa.png" alt="" />
+                <span class="skills-name">Data Structures and Algorithms</span>
+              </div>
+
+            </div> 
+
+          </div>
+        </div>
+    </section>
+
+    <!--===== Projects =====-->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <!-------------PROJECT 1------------>
+      <div class="project-container">
+        <div class="project-img">
+          <img src="assets/img/Portfolio/pinchez.png" alt="cult.fit" />
+          <p class="project-title">Pinchez Graphics Agency</p>
+          <p class="project-subtitle">
+            Web-based personal portfolio that shows all the work-based projects relating to graphics and websites designs. 
+            This is where you'll find creatrive inspirations for a designer.
+          </p>
+          <div class="project-btns">
+            <a href="http://www.pinchez.epizy.com/?i=1" target="_blank" class="small-btn button">
+              Live
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-------------PROJECT 2------------>
+        <div class="project-img">
+          <img src="assets/img/Portfolio/travel.png" alt="Reddit.com" />
+          <p class="project-title">Travel Diaries Agency</p>
+          <p class="project-subtitle">
+            Web-based application that allows users to book for a travelling destination by going to the app and searching for their favorite place without going to that place physically.
+          </p>
+          <div class="project-btns">
+            <a href="https://traveldiariesagency.netlify.app/" target="_blank" class="small-btn button">
+              Live
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-------------PROJECT 3------------>
+        <div class="project-img">
+          <img src="assets/img/Portfolio/ecommerce.png" alt="cult.fit" />
+          <p class="project-title">Ecommerce Website</p>
+          <p class="project-subtitle">
+            Web application that allow users to order for their favorite product online by going to the application and search the specific product, of which this helps the users to choose a variety of products.
+          </p>
+          <div class="project-btns">
+            <a href="http://www.pinchez.great-site.net/SHOP/?i=1" target="_blank" class="small-btn button">
+              Live
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-------------PROJECT 4------------>
+        <div class="project-img">
+          <img src="assets/img/Portfolio/grocery.png" alt="cult.fit" />
+          <p class="project-title">Swift Grocery Delivery</p>
+          <p class="project-subtitle">
+            Web application that allow users to order grocery from the online store and then is later delivered to the specific destination as specified by the user, from the store conviniently.
+          </p>
+          <div class="project-btns">
+             <a href="https://swiftgroceryapp.netlify.app/" target="_blank" class="small-btn button">
+              Live
+              <i class="bx bx-link-external"></i>
+            </a>
+            </a>
+          </div>
+        </div>
+
+        <!-------------PROJECT 5------------>
+        <div class="project-img">
+          <img src="assets/img/Portfolio/hungry.png" alt="Swiggy.com" />
+          <p class="project-title">Hungry Hub Agency</p>
+          <p class="project-subtitle">
+            Web application where a user is able to search and make an order for all kinds of food stuffs available in various resturants using various payment methods conveniently.
+          </p>
+          <div class="project-btns">
+            <a href="https://hungryhubfoodagency.netlify.app/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-------------PROJECT 6------------>
+        <div class="project-img">
+          <img src="assets/img/Portfolio/inspired.png" alt="Tinde chat" />
+          <p class="project-title">
+            Inspired Talks Agency
+          </p>
+          <p class="project-subtitle">
+            George Simiyu is a professional speaker, author, a renowned 
+            and most sought-after corporate trainer and emcee both 
+            locally and internationally. Founder of 
+            INSPIRED-TALKS.inc.
+          </p>
+          <div class="project-btns">
+            <a href="https://www.georgesimiyu.com/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-------------PROJECT 7------------>
+        <div class="project-img">
+          <img src="assets/img/Portfolio/medibook.png" alt="shop app" />
+          <p class="project-title">
+            MediBook Online System
+          </p>
+          <p class="project-subtitle">
+            Online Appointment Booking System that provides a comprehensive platform for patients to book appointments with doctors for easily management of appointments.
+          </p>
+          <div class="project-btns">
+            <a href="https://medibook-online-system.vercel.app/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-------------PROJECT 8------------>
+        <div class="project-img">
+          <img src="assets/img/Portfolio/chanuka hub.png" alt="shop app" />
+          <p class="project-title">
+            Chanuka Learning Hub
+          </p>
+          <p class="project-subtitle">
+            Online platform that create a world where every rural learner has access to quality education that transforms lives and uplifts communities by providing accessible and practical learning opportunities
+          </p>
+          <div class="project-btns">
+            <a href="https://chanukalearninghub.netlify.app/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-------------PROJECT 9------------>
+        <div class="project-img">
+          <img src="assets/img/Portfolio/housify.png" alt="shop app" />
+          <p class="project-title">
+            Housify Real Estate
+          </p>
+          <p class="project-subtitle">
+            Online platform where a user is able to search for a housing property based on his or her preferences. This is where all the properties are listed based on the specific locality of the property.
+          </p>
+          <div class="project-btns">
+            <a href="https://housifyrealestate.netlify.app/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!--===== FOOTER + CONTACT=====-->
+
+  <footer class="footer section" id="contact">  
+    <h2 class="section-title">Get in Touch</h2>  
+  
+    <div class="footer-container">  
+      <!-- Social Media Section -->  
+      <div class="footer-column">  
+        <h3 class="footer-heading">Connect with Me</h3>  
+        <div class="footer-social">  
+          <a href="#" target="_blank" class="footer-icon">  
+            <i class="bx bxl-linkedin"></i> LinkedIn  
+          </a>  
+          <a href="#" target="_blank" class="footer-icon">  
+            <i class="bx bxl-twitter"></i> Twitter  
+          </a>  
+          <a href="#" target="_blank" class="footer-icon">  
+            <i class="bx bx-mail-send"></i> Email  
+          </a>  
+          <a href="#" target="_blank" class="footer-icon">  
+            <i class="bx bx-phone"></i> Phone  
+          </a>  
+          <a href="#" target="_blank" class="footer-icon">  
+            <i class="bx bxl-github"></i> GitHub  
+          </a>  
+        </div>  
+      </div>  
+  
+      <!-- Contact Details Section -->  
+      <div class="footer-column">  
+        <h3 class="footer-heading">Contact Details</h3>  
+        <p><i class="bx bx-phone"></i> (+254) 745 343256</p>  
+        <p><i class="bx bx-mail-send"></i> info@pinchezgraphics.com</p>  
+        <p><i class="bx bx-map"></i> 83, Donholm</p>  
+      </div>  
+  
+      <!-- Contact Form Section -->  
+      <div class="footer-column">  
+        <h3 class="footer-heading">Contact Form</h3>  
+        <form action="#" class="footer-form">  
+          <input type="text" placeholder="Your Name" required />  
+          <input type="email" placeholder="Email Address" required />  
+          <input type="tel" placeholder="Phone" required />  
+          <input type="text" placeholder="Subject" required />  
+          <textarea placeholder="Write Message" required></textarea>  
+          <button type="submit" class="footer-btn">Submit</button>  
+        </form>  
+      </div>  
+    </div>  
+  
+    <p class="footer-copy">&#169; 2025. PINCHEZ. copyright all rights reserved</p>  
+  </footer>        
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
